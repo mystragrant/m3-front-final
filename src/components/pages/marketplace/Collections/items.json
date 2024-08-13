@@ -1,0 +1,54 @@
+[
+  {
+    "creator": {
+      "verified": true,
+      "name": "CasperPunk",
+      "avatar": "/assets/images/nft-mocks/square.png"
+    },
+    "collection": {
+      "coverImage": "/assets/images/nft-mocks/ghost.png",
+      "title": "Mystra Studio",
+      "volume": 50000,
+      "floor": 253
+    }
+  },
+  {
+    "creator": {
+      "verified": true,
+      "name": "CasperArmy",
+      "avatar": "/assets/images/sample-avatar.png"
+    },
+    "collection": {
+      "coverImage": "/assets/images/nft-mocks/stars.png",
+      "title": "Wind of changes",
+      "volume": 5542,
+      "floor": 500
+    }
+  },
+  {
+    "creator": {
+      "verified": true,
+      "name": "CasperArmy",
+      "avatar": "/assets/images/sample-avatar.png"
+    },
+    "collection": {
+      "coverImage": "/assets/images/nft-mocks/mirage.png",
+      "title": "Mirage",
+      "volume": 5542,
+      "floor": 500
+    }
+  },
+  {
+    "creator": {
+      "verified": true,
+      "name": "CasperArmy",
+      "avatar": "/assets/images/sample-avatar.png"
+    },
+    "collection": {
+      "coverImage": "/assets/images/nft-mocks/cosmos.png",
+      "title": "Something",
+      "volume": 12533,
+      "floor": 333
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "language": "pl",
+  "navbar": {
+    "connectSigner": "Połącz Signer",
+    "points": "Punkty",
+    "toggleMode": "Zmień tryb"
+  }
+}

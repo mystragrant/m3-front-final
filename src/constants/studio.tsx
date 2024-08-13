@@ -1,0 +1,6 @@
+/* eslint-disable */
+
+export const STUDIO_CONTRACT_HASH =
+  "598537a98d64febe8e8a933229cc4e6d17ec438db95c37048744b9898697fe0b";
+
+export const STUDIO_CEP78_CONTRACT_HASH = "57673b0cf047090655ddb60fb68221a54f781cfb03505baf52ae51c3dbbf341c";

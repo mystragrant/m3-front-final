@@ -1,0 +1,5 @@
+export const CASPER_MARKETPLACE_ADDRESS =
+  "fbe277f443958505341cee5d6a7a239db76cccbc5cbc5c28737e6fedc3fdba6a";
+
+export const CASPER_MARKETPLACE_PACKAGE_HASH =
+  "17bcf31eae95ed5be6800fd5ff1c55f43f46ef593a54b95ff5b3ee80aa92c06a";

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../chat-front"
+		}
+	],
+	"settings": {
+		"solidity.defaultCompiler": "localNodeModule",
+		"liveServer.settings.multiRootWorkspaceName": "nft-page"
+	}
+}

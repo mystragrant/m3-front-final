@@ -1,0 +1,11 @@
+export const CSPR_AUCTION_DELEGATE_FEE = 2.5;
+export const CSPR_AUCTION_UNDELEGATE_FEE = 2.5;
+export const MIN_CSPR_TRANSFER = 2.5;
+export const MIN_CSPR_DELEGATE_TO_NEW_VALIDATOR = 500;
+export const MAX_DELEGATOR_PER_VALIDATOR = 952;
+export const ENTRY_POINT_DELEGATE = "delegate";
+export const ENTRY_POINT_UNDELEGATE = "undelegate";
+export const CASPERARMY_VALIDATOR_ADDRESS =
+  process.env.REACT_APP_ENVIRONMENT == "testnet"
+    ? "020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed"
+    : "020377bc3ad54b5505971e001044ea822a3f6f307f8dc93fa45a05b7463c0a053bed";
