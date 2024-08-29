@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import { CheckCircleIcon } from "@chakra-ui/icons";
 import {
   Box,
@@ -312,7 +313,7 @@ export const NFTItem = ({
                 type={data.contract_type}
                 address={data.contract_hash}
                 network={data.chain_id}
-                tokenId={data.token_id.slice(0, 6)}
+                tokenId={data.token_id}
                 collection={data.collection_name}
                 image={data.asset}
                 onClose={listingModal.onClose}

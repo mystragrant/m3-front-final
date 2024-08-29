@@ -97,6 +97,7 @@ export const PlaceListingModal = ({
 
         const hashBytes = Buffer.from(CASPER_MARKETPLACE_PACKAGE_HASH, "hex");
 
+
         const runtimeArgs = cepStandardToNumber(type) == 1 ? RuntimeArgs.fromMap({
           operator: CLValueBuilder.key(CLValueBuilder.byteArray(hashBytes as any)),
           token_id: [CLValueBuilder.i64(tokenId)],
@@ -350,7 +351,7 @@ export const PlaceListingModal = ({
                   <Flex justify="center" flexDir="column">
                     <Flex align="center" gap="10px">
                       <Box fontSize="20px" fontFamily="Inter">
-                        {name} {type == "ERC1155" ? "" : "#" + tokenId}
+                        {name}
                       </Box>{" "}
                     </Flex>
                     <Box>

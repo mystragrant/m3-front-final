@@ -90,7 +90,7 @@ export const CreatorStudioNFtsPage = () => {
           runtimeArgs = RuntimeArgs.fromMap({
             amount: CLValueBuilder.u512(toMotes(10)),
             token_metas: CLValueBuilder.list([map]),
-            token_ids: CLValueBuilder.list([CLValueBuilder.u256(Math.floor(Math.random() * 1000000000000))]),
+            token_ids: CLValueBuilder.list([CLValueBuilder.u256(Math.floor(Math.random() * 1000))]),
             recipient: CLValueBuilder.key(CLPublicKey.fromHex(pubKey)),
           } as any);
 
